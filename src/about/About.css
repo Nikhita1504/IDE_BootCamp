@@ -1,0 +1,73 @@
+.about-container {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center;
+  justify-content: center; */
+  height: 100vh;
+  overflow-y: auto; /* Add vertical scrollbar when content exceeds container height */
+  padding: 20px; /* Add padding */
+}
+.about-container h1{
+  text-align: center;
+}
+
+.upload-form {
+  background-color: #f0f0f0;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  color: black;
+  margin: 20px auto; /* Add margin top and bottom, auto left and right */
+  max-width: 500px; /* Limit width for better readability */
+}
+
+.upload-form label {
+  font-size: 18px;
+  margin-bottom: 10px; /* Add margin bottom */
+}
+
+.upload-form select,
+.upload-form input[type="text"],
+.upload-form input[type="file"],
+.upload-form button {
+  color: black;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  margin-bottom: 15px; /* Add margin bottom */
+  width: 100%;
+  box-sizing: border-box; /* Ensure padding is included in width */
+}
+
+.upload-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition:  0.3s;
+}
+.upload-button:hover {
+  background-color: #01724b;
+}
+
+.visualization {
+  margin-top: 20px; /* Add margin top */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+table {
+  border-collapse: collapse;
+  width: 100%; /* Adjust width */
+  margin-bottom: 20px;
+}
+
+th, td {
+  border: 1px solid #ddd; /* Change border color */
+  text-align: left;
+  padding: 12px; /* Increase padding */
+}
+
+th {
+  background-color: #f2f2f2;
+}
